@@ -1,0 +1,103 @@
+body{
+    background-color:black;
+    color:white;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black ;
+    color:white;
+
+}
+.nav-left{
+    padding-left: 20px;
+
+}
+.logo{
+    height:100px;
+}
+.nav-right{
+    padding-right:20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+a{
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.About-left{
+width:50vw;
+text-align: right;
+padding-left: 100px;
+}
+.About.right{
+    width:50vw;
+    padding-left:20px
+}
+.Education{
+    padding:50px;
+    text-align: center;
+}
+    .eduheading{
+    color:chartreuse;
+    letter-spacing: 2px;
+    font-size:50px;
+    font-style: italic;
+}
+.Edu{
+    display:flex;
+    flex-direction: row;
+    border:2px green solid 2px;
+}
+.study{
+    border:2px red solid;
+    margin:20px;
+    width:700px
+}
+.Certificates{
+    padding:50px;
+    text-align:center;
+}
+.certiheading{
+    color:chartreuse;
+    letter-spacing:2px;
+    font-size:50px;
+    font-style:italic;
+}
+.app{
+    font-size:20px;
+    text-align: center;
+}
+.contact{
+    text-align:center;
+}
+.contactheading{
+    color:chartreuse;
+    letter-spacing:2px;
+    font-size:50px;
+    font-style:italic;
+    text-align:center;
+}
+.iconsize{
+    height:40px;
+    text-align: center;
+}
+.skill{
+    display:flex;
+    flex-direction: row;
+    font-size:20px;
+    text-align:center;
+}
